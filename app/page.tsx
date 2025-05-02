@@ -43,7 +43,7 @@ export default function Page() {
                   setAnswers({ ...answers, [q.id]: key });
                 }}
               >
-                {key}. {val}
+                {key}. {String(val)}
               </button>
             ))}
           </div>
